@@ -6,16 +6,19 @@
   <title>Basic-Portfolio</title>
 
   <!-- Link HTML to CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
   <header>
     <h1>Victoria Dean</h1>
-    <button class="btn" id="loadAbout">About</button>
-    <button class="btn" id="loadPortfolio">Portfolio</button>
-    <button class="btn" id="loadContact">Contact</button>
+    	<section id = "headerLinks">
+		    <a class="textLinks" href="#">About   |</a>
+		    <a class="textLinks" href="portfolio.html">Portfolio</a>
+		    <a class="textLinks" href="contact.html">|   Contact</a>
+		</section>
   </header>
 
   <div class="container">
@@ -29,22 +32,31 @@
 	      	<img id="ProfilePic" src="assets/images/profile.png" alt="headshot">
 
 	      	<p>
-	      		Hello! Victoria Dean here. I am a typical atypical millenial with a conglomorate of interests and skillsets that might not apprear to be cohesive or constructive. My best friends are my parents and my 13 year old dog, Ginger. I'm an ex-Petroleum Engineer, future Environmental Engineer, and a current educator at the same dang time. I love music and am an undercover musician and song-writer. (Guess it's not so "undercover" now). Welcome to my cyber gallery :) 
+	      		Hello! Victoria Dean here. I am a typical atypical millennial with a conglomerate of interests and skillsets that might not appear to be cohesive or constructive. My best friends are my parents and my 13-year-old dog, Ginger. I'm an ex-Petroleum Engineer, future Environmental Engineer, and a current educator at the same dang time. I love music and am an undercover musician and song-writer. (Not so "undercover" now). 
+	      	</p>
+	      	<p>
+	      		Welcome to my cyber gallery. Enjoy!
 	      	</p>
 	    </section>
 
 	    <section id="Connect">
 	      
-	      <h2>Connect with Me</h2>
+	      <h3>Connect with Me</h3>
 	      
-			<img id="GithubPic" src="assets/images/github.png" alt="github">
-			<img id="LinkedPic" src="assets/images/linkedin.png" alt="linkedin">
-			<img id="OverflowPic" src="assets/images/overflow.png" alt="overflow">
+			<a target="_blank" href="https://github.com/vdean2011">
+ 			 <img id="logos" src="assets/images/github.png" alt="github">
+			</a>
+			<a target="_blank" href="https://www.linkedin.com/in/victoriadean1/">
+ 			 <img id="logos" src="assets/images/linkedin.png" alt="linkedin">
+			</a>
+			<a target="_blank" href="http://stackoverflow.com/users/7532213/victoria-dean">
+ 			 <img id="logos" src="assets/images/overflow.png" alt="overflow">
+			</a>
 
 	    </section>
 
 	    <section id="Footer">
-	    	<h3>© Copyright 2017 Victoria Dean</h3>
+	    	<h4>© Copyright 2017 Victoria Dean</h4>
 	    </section>
   </div>
 
