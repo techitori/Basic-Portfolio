@@ -23,6 +23,10 @@ h1 {
 	font-size: 18px;
 }
 
+.textLinks:hover {
+	color: #4aaaa5;
+}
+
 #headerLinks {
 	padding: 15px;
 }
@@ -75,6 +79,18 @@ input {
 	width: 475px;
 }
 
+#submit:default {
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px solid #dddddd;
+	width: 100px;
+	height: 40px;
+}
+
+#submit:active {
+	background-color: pink;
+}
+
 #Connect {
 	position: absolute;
 	top: 100px;
@@ -105,5 +121,5 @@ input {
 	text-align: center;
 	border-top: 5px solid #4aaaa5;
 	position: absolute;
-	top:540px;
+	top:560px;
 }

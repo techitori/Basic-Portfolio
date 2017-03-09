@@ -23,6 +23,10 @@ h1 {
 	font-size: 18px;
 }
 
+.textLinks:hover {
+	color: #4aaaa5;
+}
+
 #headerLinks {
 	padding: 15px;
 }
@@ -109,3 +113,4 @@ p {
 	position: absolute;
 	top:510px;
 }
+

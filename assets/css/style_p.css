@@ -23,6 +23,10 @@ h1 {
 	font-size: 18px;
 }
 
+.textLinks:hover {
+	color: #4aaaa5;
+}
+
 #headerLinks {
 	padding: 15px;
 }
@@ -35,21 +39,45 @@ h1 {
 	position: static;
 }
 
-#Portfolio {
+.Content {
 	position: absolute;
 	top: 100px;
 	left: 175px;
+	float: left;
 	width: 550px;
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
 
 }
 
-#Preview {
+.boxes {
+	position: relative;
+	float: left;
 	width: 230px;
 	height: 170px;
 	margin: 20px;
 	border: 1px solid #dddddd;
+}
+
+.preview {
+	position: absolute;
+	width: 230px;
+	height: 170px;	
+}
+
+.title {
+	position: absolute;
+	bottom:20px;
+	background-color: #4aaaa5;
+	text-decoration: none;
+	width: 230px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	color: white;	
+}
+
+.title:hover {
+	background-color: pink;
 }
 
 h2 {
